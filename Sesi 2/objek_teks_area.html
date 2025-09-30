@@ -1,0 +1,24 @@
+<html> 
+<script language="JavaScript"> 
+function  EvenTekan() 
+{ 
+  var ketstr=(document.fForm.ket.value); 
+  document.fForm.ketstr.value=ketstr; 
+} 
+</script> 
+<form name="fForm"> 
+    Memasukan Data Pada TextArea 
+    <hr> 
+    Masukan: 
+<br> 
+    <textarea name="ket" rows="3" cols="30">  
+    </textarea>  
+    <br> 
+    <input type="button" value="Kirim" onclick="EvenTekan()"> 
+    <input type="reset" value="Reset"> 
+    <BR> 
+    Keluaran:<br> 
+    <textarea name="ketstr" rows="3" cols="30"> 
+    </textarea> 
+</form> 
+</html>
